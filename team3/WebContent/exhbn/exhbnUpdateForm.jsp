@@ -80,7 +80,6 @@
        <div class="col-sm-offset-2 col-sm-10">
          <input type="submit" value="미술품 수정" class="btn btn-primary">
        </div>
-   
    </div>
    
   </form>
@@ -107,7 +106,7 @@ inputImage.addEventListener("change", e => {readImage(e.target)})
 </script>
 <jsp:include page="../footer.jsp"/>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="../resources/js/scripts.js"></script>
+        <!-- Core theme JS-->
+        <script src="../resources/js/scripts.js"></script>
 </body>
 </html>

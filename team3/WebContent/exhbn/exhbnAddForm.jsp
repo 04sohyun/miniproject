@@ -84,9 +84,6 @@
   </form>
 </div>
 <jsp:include page="../footer.jsp"/>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="../resources/js/scripts.js"></script>
 <script>
 function readImage(input) {
     // 인풋 태그에 파일이 있는 경우
@@ -107,5 +104,8 @@ function readImage(input) {
 const inputImage = document.getElementById("input-image")
 inputImage.addEventListener("change", e => {readImage(e.target)})
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../resources/js/scripts.js"></script>
 </body>
 </html>
